@@ -1,6 +1,6 @@
 export default function Todo({ todo, toggleDone, deleteTodo }) {
     return (
-      <li className={`todo-item ${todo.done ? "done" : ""}`}>
+      <li className={`todo-objekt ${todo.done ? "done" : ""}`}>
         <span onClick={() => toggleDone(todo.id)}>
           {todo.title}
         </span>

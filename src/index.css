@@ -115,7 +115,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #03448a;
 }
 
 p {
@@ -126,7 +126,7 @@ p {
 
 
 
-.todo-item {
+.todo-objekt {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,7 +154,7 @@ p {
 
 .todo-buttons {
   display: flex;
-  gap: 5px;
+  gap: 6px;
 }
 
 .todo-buttons button {
@@ -163,11 +163,11 @@ p {
 }
 
 .delete-btn {
-  background-color: #dc3545;
+  background-color: #9c0515;
 }
 
 .delete-btn:hover {
-  background-color: #b02a37;
+  background-color: #5e030c;
 }
 
 .done-btn {
