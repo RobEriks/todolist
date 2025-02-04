@@ -6,7 +6,7 @@ export default function Todo({ todo, toggleDone, deleteTodo }) {
         </span>
         <div className="todo-buttons">
           <button className="done-btn" onClick={() => toggleDone(todo.id)}>
-            {todo.done ? "✔️" : "✖️"}
+            {todo.done ? "✅" : "❎"}
           </button>
           <button className="delete-btn" onClick={() => deleteTodo(todo.id)}>
             🗑️
